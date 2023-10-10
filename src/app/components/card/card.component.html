@@ -1,0 +1,11 @@
+<div class="card">
+    <div class="card__title">
+        <h3> {{ item.roman_name }} </h3>
+    </div>
+    <div class="card__body" [ngClass]="item.type">
+        <img alt="fruit" [src]="item.fileURL" srcset="" />
+    </div>
+    <div class="card__stats">
+        <span class="card__stats__type" [ngClass]="item.type">{{ item.type }}</span>
+    </div>
+</div>

@@ -1,0 +1,8 @@
+<div class="content__home"
+    infinite-scroll
+    (scrolled)="onScrollDown($event)"
+    (scrolledUp)="onScrollUp($event)">
+
+    <app-card *ngFor="let fruit of fruits | slice:0:limitItems" [item]="fruit"/>
+    
+</div>

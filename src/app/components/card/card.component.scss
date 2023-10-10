@@ -1,0 +1,87 @@
+.card {
+    width: 260px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 10px;
+
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+
+    -webkit-box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
+    -moz-box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
+    box-shadow: 11px 18px 23px -8px rgba(97,97,97,1);
+}
+
+.card__title {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__title > h3 {
+    color: #616161;
+    text-align: center;
+    padding: 1px;
+}
+
+.card__body {
+    width: 230px;
+    height: 260px;
+
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #616161;
+}
+
+.card__stats {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card__stats__type {
+    color: white;
+    background-color: coral;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 4px;
+    border-radius: 5px;
+}
+
+img {
+    width: 60%;
+    max-height: 80%;
+}
+
+.Zoan {
+    background-color: #98d5d7;
+}
+
+.Zoan.Antique {
+    background-color: #725847;
+}
+
+.Zoan.Mythique {
+    background-color: #77c850;
+}
+
+.Smile {
+    background-color: #ee7f30;
+}
+.Logia {
+    background-color: #dfbf69;
+}
+
+.Paramecia {
+    background-color: #f65687;
+}
